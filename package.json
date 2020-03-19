@@ -50,6 +50,7 @@
     "webpack-merge": "^4.2.2"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=local webpack-dev-server --config webpack/webpack.dev.js"
+    "dev": "cross-env NODE_ENV=local webpack-dev-server --config webpack/webpack.dev.js",
+    "deploy": "now"
   }
 }
