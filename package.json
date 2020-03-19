@@ -1,0 +1,15 @@
+{
+  "name": "react-starter-project",
+  "version": "1.0.0",
+  "description": "Contains starter files for buildign a react project without React CRA",
+  "main": "index.js",
+  "author": "Sujith nath",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0"
+  }
+}
