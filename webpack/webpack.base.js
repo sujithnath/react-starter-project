@@ -98,8 +98,8 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin([
       {
-        from: "assets/img",
-        to: "assets/img",
+        from: "src/assets/img",
+        to: "src/assets/img",
       },
     ]),
     new HtmlWebpackPlugin({
