@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./routes";
 const MOUNT_NODE = document.getElementById("app");
+import { GlobalStyles } from "./globalStyle";
 
 if (module && module.hot) {
   module.hot.accept();
@@ -10,10 +10,8 @@ if (module && module.hot) {
 
 const Render = () => (
   <>
-    HEADER
-    <Router>
-      <Routes />
-    </Router>
+    <GlobalStyles />
+    <Routes />
   </>
 );
 
