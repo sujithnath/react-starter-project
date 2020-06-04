@@ -1,4 +1,13 @@
-## Notes
+## Todo
 
-To install the peer dependencies
-yarn add install-peerdeps --dev eslint-config-airbnb
+- create another branch for TS
+  - install with typescript
+- install all essentials
+
+  - Deployment (static)
+  - kubernetes
+    All the time
+
+- make sure it runs hello world under ts
+- - Install webpack
+  - modify webpack

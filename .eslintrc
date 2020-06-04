@@ -1,52 +1,10 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "extends": ["airbnb", "eslint:recommended", "plugin:prettier/recommended"],
-  "globals": {
-    "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
-  },
   "parserOptions": {
+    "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+    "ecmaVersion": 2018
   },
-  "plugins": ["react", "prettier", "jsx-a11y"],
-  "rules": {
-    "prettier/prettier": "error",
-    "import/imports-first": 0,
-    "arrow-body-style": [2, "as-needed"],
-    "class-methods-use-this": 0,
-    "import/newline-after-import": 0,
-    "import/no-dynamic-require": 0,
-    "import/no-extraneous-dependencies": 0,
-    "import/no-named-as-default": 0,
-    "import/no-unresolved": 2,
-    "import/no-webpack-loader-syntax": 0,
-    "import/prefer-default-export": 0,
-    "max-len": 0,
-    "newline-per-chained-call": 0,
-    "no-confusing-arrow": 0,
-    "no-console": "error",
-    "no-unused-vars": 2,
-    "no-use-before-define": 0,
-    "prefer-template": 2,
-    "comma-dangle": ["error", "never"],
-    "jsx-a11y/aria-props": 2,
-    "jsx-a11y/heading-has-content": 0,
-    "jsx-a11y/label-has-associated-control": [
-      2,
-      {
-        "controlComponents": ["Input"]
-      }
-    ],
-    "jsx-a11y/label-has-for": 0,
-    "jsx-a11y/mouse-events-have-key-events": 2,
-    "jsx-a11y/role-has-required-aria-props": 2,
-    "jsx-a11y/role-supports-aria-props": 2
-  }
+  "plugins": ["react", "prettier"]
 }

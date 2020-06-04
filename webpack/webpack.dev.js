@@ -54,8 +54,4 @@ module.exports = merge(commonConfig, {
     new InlineSourcePlugin(),
     new webpack.NamedModulesPlugin(),
   ],
-
-  performance: {
-    hints: "warning",
-  },
 });
